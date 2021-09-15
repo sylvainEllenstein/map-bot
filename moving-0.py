@@ -4,7 +4,6 @@ from bluedot import *
 from gpiozero import *
 from signal import pause
 
-# Servo pin attribution, what interface to use ? 
-
+# Servo pin attribution, what interface to use ? -----> I2C interface, look with Adafruit
 
 
