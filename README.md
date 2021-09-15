@@ -5,6 +5,9 @@ Projet de bac 2021-2022, Alain THIRION
 Division en strates : 
 
 0. robot physique (Meccano, ...) déplaçable dans l'espace par télécommande bluetooth (BlueDot + gpiozero) +++++ modulable !!!
+  - quelle interface : SPI ? pi pico ? 
+ 
+
 
 I. déplacement dans l'espace, utilisant un capteur de distance
   - repérage dans l'espace grâce à un système de balises radios
@@ -42,6 +45,6 @@ Bibliothèques python nécessaires : images vectorielles, tkinter (micro logicie
 rotary encoder
 balises radios
 servos (bien choisir !!!!!) + dénombrer
-
-  
+chenilles
+interface SPI pour PWM ?
   
