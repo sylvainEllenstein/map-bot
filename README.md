@@ -1,12 +1,17 @@
 # map-bot
 
+CECI N'EST PAS UN README.
+
 Projet de bac 2021-2022, Alain THIRION
 
 Division en strates : 
 
 0. robot physique (Meccano, ...) déplaçable dans l'espace par télécommande bluetooth (BlueDot + gpiozero) +++++ modulable !!!
-  - quelle interface : SPI ? pi pico ? 
- 
+  - choix de l'interface : carte I2C, channel PWM avec 16 servos
+  --> https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
+ - liste des composants nécessaires : 
+    - servo stepper (ou précis) pour rotation capteur HC-SR04
+
 
 
 I. déplacement dans l'espace, utilisant un capteur de distance
