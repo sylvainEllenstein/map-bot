@@ -13,6 +13,9 @@ Division en strates :
     - servo stepper (ou précis) pour rotation capteur HC-SR04 ########
     - deux continuous servos pour mouvement général ; + puissant ou pas ? ----> SG90 servo motor (torque 2.5) ou FS5103R (torque 3.0)
     - 
+    - 
+    - 
+    - rotating servo puissant : TowerPro SG-5010 - 5010 (torque 5.5)
 
 
 I. déplacement dans l'espace, utilisant un capteur de distance
@@ -53,4 +56,8 @@ balises radios
 servos (bien choisir !!!!!) + dénombrer
 chenilles
 interface SPI pour PWM ?
+
+------ VARIANTES ---------
+créer un hexapode pour mieux s'adapter aux terrains accidentés
+
   
