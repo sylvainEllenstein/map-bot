@@ -10,8 +10,9 @@ Division en strates :
   - choix de l'interface : carte I2C, channel PWM avec 16 servos
   --> https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
  - liste des composants nécessaires : 
-    - servo stepper (ou précis) pour rotation capteur HC-SR04
-
+    - servo stepper (ou précis) pour rotation capteur HC-SR04 ########
+    - deux continuous servos pour mouvement général ; + puissant ou pas ? ----> SG90 servo motor (torque 2.5) ou FS5103R (torque 3.0)
+    - 
 
 
 I. déplacement dans l'espace, utilisant un capteur de distance
