@@ -14,3 +14,4 @@ https://pypi.org/project/drawSvg/
 
 
 Writing in files in python :
+https://cmdlinetips.com/2012/09/three-ways-to-write-text-to-a-file-in-python/ + reading file : go to link at the end
