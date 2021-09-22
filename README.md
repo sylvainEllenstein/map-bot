@@ -51,6 +51,8 @@ Bibliothèques python nécessaires : images vectorielles, tkinter (micro logicie
 
 
   ----- MATERIEL --------
+chercher codes promos Kubii +  articles le +  sur kubii
+
 rotary encoder
 balises radios
 servos (bien choisir !!!!!) + dénombrer
