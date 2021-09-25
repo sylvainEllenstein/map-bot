@@ -74,6 +74,11 @@ servo angulaire :
 https://boutique.semageek.com/fr/1042-micro-servo-tower-pro-sg92r-3006230202815.html
 ~7€ (fournisseur commun ?)
 
+accéléromètre : 
+https://www.gotronic.fr/art-accelerometre-3-axes-mr3101-24736.htm
+~8€
+
+boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...)
 
 TOTAL UNITAIRE :
 40€
