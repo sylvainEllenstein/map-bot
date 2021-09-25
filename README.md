@@ -63,9 +63,20 @@ https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat
 ~12€
 
 chenilles : 
-https://www.google.com/url?q=https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-%2B-Driving-Wheel-%2B-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html&sa=D&source=hangouts&ust=1632671143510000&usg=AOvVaw32Tz4e06cRBRe4UGMyOuMq
+https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-%2B-Driving-Wheel-%2B-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html&sa=D&source=hangouts&ust=1632671143510000&usg=AOvVaw32Tz4e06cRBRe4UGMyOuMq
 ~13€
 
+servo continu : 
+https://www.gotronic.fr/art-servomoteur-fs5103r-25839.htm
+~8€ (autre fournisseur ?)
+
+servo angulaire : 
+https://boutique.semageek.com/fr/1042-micro-servo-tower-pro-sg92r-3006230202815.html
+~7€ (fournisseur commun ?)
+
+
+TOTAL UNITAIRE :
+40€
 
 ------- AGENDA ACTUEL -------
 
