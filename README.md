@@ -9,8 +9,7 @@ Code à diviser en plusieurs modules : docs user, python basic (API), puis code 
 Division en strates : 
 
 0. robot physique (Meccano, ...) déplaçable dans l'espace par télécommande bluetooth (BlueDot + gpiozero) +++++ modulable !!!
-  - choix de l'interface : carte I2C, channel PWM avec 16 servos
-  --> https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
+  - choix de l'interface : carte I2C, channel PWM avec 16 servo OKOKOK
  - liste des composants nécessaires : 
     - servo stepper (ou précis) pour rotation capteur HC-SR04 ########
     - deux continuous servos pour mouvement général ; + puissant ou pas ? ----> https://www.gotronic.fr/art-servomoteur-fs5103r-25839.htm (torque 3.0 kg.cm-1)
@@ -56,14 +55,17 @@ Modélisaition 3D : freeCAD, LeoCAD, Blender
 chercher codes promos Kubii +  articles le +  sur kubii
 
 rotary encoder
-balises radios
+balises radios --> non du coup
 servos (bien choisir !!!!!) + dénombrer
-chenilles     
-interface SPI pour PWM ?      OK
-
+     
+interface I2C pour PWM : 
+https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
+~12€
 
 chenilles : 
-https://fr.banggood.com/Small-Hammer-Plastic-Tracks-Crawler-Belt-Kit-For-DIY-RC-Robot-Car-Tank-p-1574899.html?rmmds=detail-topright-recommendation&cur_warehouse=CN
+https://www.google.com/url?q=https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-%2B-Driving-Wheel-%2B-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html&sa=D&source=hangouts&ust=1632671143510000&usg=AOvVaw32Tz4e06cRBRe4UGMyOuMq
+~13€
+
 
 ------- AGENDA ACTUEL -------
 
