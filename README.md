@@ -81,7 +81,7 @@ https://www.gotronic.fr/art-accelerometre-3-axes-mr3101-24736.htm
 boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...)
 
 TOTAL UNITAIRE :
-40€
+59€
 
 ------- AGENDA ACTUEL -------
 
