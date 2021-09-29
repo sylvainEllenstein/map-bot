@@ -31,3 +31,6 @@ takes as argument a timeout : will very probably function (no physical jitter) b
 
 
 """
+
+def forward(boolF):
+    pass
