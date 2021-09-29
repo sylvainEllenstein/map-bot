@@ -17,6 +17,9 @@ Division en strates :
     - 
     - rotating servo puissant : TowerPro SG-5010 - 5010 (torque 5.5)
 
+capteur plus précis ? (LIDAR, tester précision du HC SR04)
+utilisation de la centrale inertielle ? (intégrer le mouvement)
+
 
 I. déplacement dans l'espace, utilisant un capteur de distance
   - repérage dans l'espace grâce à un système de balises radios
