@@ -50,6 +50,10 @@ Réception des ondes radios --> enveloppe hilbert scipy, matériel... + Fourier
 Bibliothèques python nécessaires : images vectorielles, tkinter (micro logiciel), IA
 
 Modélisaition 3D : freeCAD, LeoCAD, Blender 
+Localisation / mapping :
+https://www.cs.cmu.edu/~motionplanning/lecture/Chap8-Kalman-Mapping_howie.pdf
+
+---->> chercher en français ??? .. 
 
   ----- MATERIEL --------
 chercher codes promos Kubii +  articles le +  sur kubii
