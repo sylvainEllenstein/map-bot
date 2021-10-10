@@ -67,14 +67,16 @@ servos (bien choisir !!!!!) + dénombrer
      
 interface I2C pour PWM : 
 https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
+--> https://www.generationrobots.com/fr/401832-controleur-16-canaux-adafruit.html (18 €...)
 ~12€
 
 chenilles : 
-https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-%2B-Driving-Wheel-%2B-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html&sa=D&source=hangouts&ust=1632671143510000&usg=AOvVaw32Tz4e06cRBRe4UGMyOuMq
+https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-+-Driving-Wheel-+-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html?cur_warehouse=CN&ID=514832&rmmds=search
 ~13€
 
 servo continu : 
 https://www.gotronic.fr/art-servomoteur-fs5103r-25839.htm
+--> https://www.generationrobots.com/fr/403272-servomoteur-standard-%C3%A0-rotation-continue-fs5106r.html (9€ mais fois 2...)
 ~8€ (autre fournisseur ?)
 
 servo angulaire : 
@@ -83,12 +85,19 @@ https://boutique.semageek.com/fr/1042-micro-servo-tower-pro-sg92r-3006230202815.
 
 accéléromètre : 
 https://www.gotronic.fr/art-accelerometre-3-axes-mr3101-24736.htm
+--> https://www.generationrobots.com/fr/403202-gyroscope-accelerometre-et-boussole-minimu-9-v5.html (13€...)
 ~8€
 
-boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...)
+boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...) --> centrale inertielle ?
+
+pièces de structure sur generationrobots.fr : 
+https://www.generationrobots.com/fr/150-structures-et-chassis
 
 TOTAL UNITAIRE :
 59€
+
+Fournisseurs globaux potentiels (+Banggod obligé):
+generationrobots, autre (raspberry ou robot)
 
 ------- AGENDA ACTUEL -------
 
