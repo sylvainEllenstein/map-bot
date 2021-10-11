@@ -92,6 +92,7 @@ boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...) --> centrale 
 
 pièces de structure sur generationrobots.fr : 
 https://www.generationrobots.com/fr/150-structures-et-chassis
+(codes promo : https://www.couponbirds.com/codes/generationrobots.com)
 
 TOTAL UNITAIRE :
 59€
