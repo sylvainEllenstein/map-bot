@@ -1,11 +1,15 @@
+#!/usr/bin/python3
+
 # File that manages connection with robot using bluedot and gpiozero, and allows to control manually the movement 
 # This is only an API for facilitating communication with servos and motors
 
-from bluedot import *
 from gpiozero import *
 from signal import pause
 from time import *
+import threading
 from adafruit_servokit import * # only using ServoKit ?
+
+# Other custom localisation scripts are to be imported ...
 
 kit = ServoKit(channels=16)
 
@@ -24,12 +28,23 @@ Config :
 5 : main head-rotating servo (180°... --> precise, not heavy / powerful)
 """
 
+class boolMoveThread(threading.Thread) :
+	# This type of thread is to be created within a forward or backward function, and it lets run the main motors until a condition
+	# becomes False (called by boolFunc); may be used within another type of function :
+	def __init__(self, boolFunc, speed) :
+		threading.Thread.__init__(self)
+		self.boolFunc = boolFunc
+		self.speed = speed
+		
+	def run(self) :
+		kit.continuous_servo[1].throttle = self.speed
+		kit.continuous_servo[2].throttle = - self.speed
+		while boolFunc():
+			pass
+		kit.continuous_servo[1].throttle = kit.continuous_servo[2]
+
 def forward(boolFunc, speed=1):
-	kit.continuous_servo[1].throttle = speed
-	kit.continuous_servo[2].throttle = -speed
 	# starting here a new thread would be nice...
 	# then call a function that close both servos
-	while boolFunc():
-		pass
-	kit.continuous_servo[1].throttle = kit.continuous_servo[2].throttle = 0
+	
 	
