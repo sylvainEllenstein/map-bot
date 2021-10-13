@@ -56,5 +56,7 @@ def forward(boolFunc, speed=1):
 	thread1.start()
 	# calling .join() for waiting ?
 	
-
+def rotationMove(angle, radius, *args):
+	# takes an angle + radius as argument, and allows to turn with it on some distance
+	pass
 	
