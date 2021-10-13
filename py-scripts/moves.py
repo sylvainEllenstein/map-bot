@@ -46,5 +46,8 @@ class boolMoveThread(threading.Thread) :
 def forward(boolFunc, speed=1):
 	# starting here a new thread would be nice...
 	# then call a function that close both servos
+	thread1 = boolMoveThread(boolFunc, speed)
+	thread1.start()
+	
 	
 	
