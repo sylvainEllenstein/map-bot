@@ -27,6 +27,7 @@ Then final step : reads the draw instructions file
 
 # public data : estimatePosition() : returns an estimation of the state when called
 # estimateSpeed()
+# estimateRotation() (of head)
 
 from gpiozero import DistanceSensor
 from gpiozero.pins.pigpio import PiGPIOFactory
