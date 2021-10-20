@@ -12,7 +12,6 @@ a map class / or file ? that can be exported to graphical representation or for 
 on an already mapped space, it would be useful to have an algorithm to recognise the position... and so to be able to 
 go from an A to a B point)
 
-
 Creation of a drawlist file to give to drawing 
 - reads each line of the file, calculates the distance between the points, determines if they are (or may be ?) connected
   - if yes : adds a line to draw between the 2 points
@@ -26,10 +25,15 @@ Then final step : reads the draw instructions file
 
 ########### SENSORS INPUTS MANAGEMENT ############
 
+# public data : estimatePosition() : returns an estimation of the state when called
+# estimateSpeed()
+
 from gpiozero import DistanceSensor
 from gpiozero.pins.pigpio import PiGPIOFactory
 
 # HC-SR04, distance sensor
 
 myFactory = PiGPIOFactory()
-distance = DistanceSensor(max_range=4, pin_factory=myFactory, echo=..., trig=...)
+getDistance = DistanceSensor(max_range=4, pin_factory=myFactory, echo=..., trig=...)
+
+
