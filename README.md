@@ -72,7 +72,7 @@ https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat
 
 chenilles : 
 https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-+-Driving-Wheel-+-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html?cur_warehouse=CN&ID=514832&rmmds=search
-~13€
+~19€
 
 servo continu : 
 https://www.gotronic.fr/art-servomoteur-fs5103r-25839.htm
@@ -93,12 +93,18 @@ boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...) --> centrale 
 pièces de structure sur generationrobots.fr : 
 https://www.generationrobots.com/fr/150-structures-et-chassis
 (codes promo : https://www.couponbirds.com/codes/generationrobots.com)
+Possibilité : roues de generationrobots.com, + moyeux universels à la place des chenilles : -19€, plus simple
+--> moteurs CC, plus compliqués à régler, interface de contrôle à trouver...
+
+
 
 TOTAL UNITAIRE :
 59€
 
 Fournisseurs globaux potentiels (+Banggod obligé):
 generationrobots, autre (raspberry ou robot)
+Lidar potentiel (baisser le prix) https://www.generationrobots.com/fr/402955-micro-telemetre-lidar-tfmini.html
+
 
 ------- AGENDA ACTUEL -------
 
