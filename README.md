@@ -89,15 +89,7 @@ https://www.gotronic.fr/art-accelerometre-3-axes-mr3101-24736.htm
 ~8€
 
 boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...) --> centrale inertielle ?
-
-pièces de structure sur generationrobots.fr : 
-https://www.generationrobots.com/fr/150-structures-et-chassis
-(codes promo : https://www.couponbirds.com/codes/generationrobots.com)
-Possibilité : roues de generationrobots.com, + moyeux universels à la place des chenilles : -19€, plus simple
---> moteurs CC, plus compliqués à régler, interface de contrôle à trouver...
-
-
-
+REPLI SUR ROBOTSHOP, voir panier.
 TOTAL UNITAIRE :
 59€
 
