@@ -31,10 +31,14 @@ Then final step : reads the draw instructions file
 
 from gpiozero import DistanceSensor
 from gpiozero.pins.pigpio import PiGPIOFactory
+from mpu6050 import mpu6050
 
 # HC-SR04, distance sensor
 
 myFactory = PiGPIOFactory()
-getDistance = DistanceSensor(max_range=4, pin_factory=myFactory, echo=..., trig=...)
+distanceSensor = DistanceSensor(max_range=4, pin_factory=myFactory, echo=..., trig=...)
 
+# accel_sensor mpu6050
+accelSensor = mpu6050(0x68)
 
+# Optional : adding Pi Camera support
