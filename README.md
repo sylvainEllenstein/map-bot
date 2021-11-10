@@ -34,69 +34,23 @@ I. déplacement dans l'espace, utilisant un capteur de distance
   
 II. Amélioration des fonctions du robot
   - interface de visualisation des calculs pendant le fonctionnement (matrice LEDs, écran)
-  (bras articulé pour reproduire les mouvements : Rotary Encoder... compliqué en 3D, autre mvt + simple ?)
-  - ajout d'un bras / stockage protégé du cable de chargement sur secteur 
-  - automatisation des tâches de réglage système (en headless)
-  - ajout d'une caméra + centre secondaire de traitement si nécessaire...
-  A. Phase IA
-    - reconnaissance d'images, utilisation de la caméra
-    - reconnaissance de prises secteur, entraînement de l'image
-    - utilisation complémentaire du capteur de distance pour repérer la prise dans l'espace 
-  
-III. Phase domotique (optionnel +++)
-  - interaction avec l'environnement... + ?
+
   
   
   
   ----- DOCS NEEDED ------
-Réception des ondes radios --> enveloppe hilbert scipy, matériel... + Fourier
-Bibliothèques python nécessaires : images vectorielles, tkinter (micro logiciel), IA
+Bibliothèques python nécessaires : images vectorielles, tkinter (micro logiciel local pour la réception (SSH ?)), IA
 
-Modélisaition 3D : freeCAD, LeoCAD, Blender 
+Modélisation 3D : freeCAD, LeoCAD, Blender 
 Localisation / mapping :
 https://www.cs.cmu.edu/~motionplanning/lecture/Chap8-Kalman-Mapping_howie.pdf
 
 ---->> chercher en français ??? .. 
 
   ----- MATERIEL --------
-chercher codes promos Kubii +  articles le +  sur kubii
 
 rotary encoder
-balises radios --> non du coup
-servos (bien choisir !!!!!) + dénombrer
-     
-interface I2C pour PWM : 
-https://www.kubii.fr/cartes-extension-cameras-raspberry-pi/2750-servo-driver-hat-kubii-614961955844.html?search_query=16+channel+PWM+servo+driver&results=124
---> https://www.generationrobots.com/fr/401832-controleur-16-canaux-adafruit.html (18 €...)
-~12€
-
-chenilles : 
-https://www.banggood.com/fr/Smart-Robot-Part-Plastic-Track-+-Driving-Wheel-+-Bearing-Wheel-Accessory-Set-For-DIY-Kit-p-1071140.html?cur_warehouse=CN&ID=514832&rmmds=search
-~19€
-
-servo continu : 
-https://www.gotronic.fr/art-servomoteur-fs5103r-25839.htm
---> https://www.generationrobots.com/fr/403272-servomoteur-standard-%C3%A0-rotation-continue-fs5106r.html (9€ mais fois 2...)
-~8€ (autre fournisseur ?)
-
-servo angulaire : 
-https://boutique.semageek.com/fr/1042-micro-servo-tower-pro-sg92r-3006230202815.html
-~7€ (fournisseur commun ?)
-
-accéléromètre : 
-https://www.gotronic.fr/art-accelerometre-3-axes-mr3101-24736.htm
---> https://www.generationrobots.com/fr/403202-gyroscope-accelerometre-et-boussole-minimu-9-v5.html (13€...)
-~8€
-
-boussole : (bcp moins cher sur aliexpress + amazon + cdiscount...) --> centrale inertielle ?
-REPLI SUR ROBOTSHOP, voir panier.
-TOTAL UNITAIRE :
-59€
-
-Fournisseurs globaux potentiels (+Banggod obligé):
-generationrobots, autre (raspberry ou robot)
-Lidar potentiel (baisser le prix) https://www.generationrobots.com/fr/402955-micro-telemetre-lidar-tfmini.html
-
+chenilles toujours d'actu pour faciliter le travail  
 
 ------- AGENDA ACTUEL -------
 
