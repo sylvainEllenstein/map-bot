@@ -23,3 +23,8 @@ pour voir exemples de fonctionnement : https://github.com/gallaugher/PiBot/blob/
 NB : ne pas créer de classes supplémentaires, surchargerait trop la mem
 
 Pour le mouvement dans l'espace, regarder : http://eavr.u-strasbg.fr/~bernard/education/3a_robmob/3a_robmob_slides.pdf
+
+![image](https://user-images.githubusercontent.com/76899255/141144304-bc6e6c5c-03a3-40a1-a6f0-34f18095d7b2.png)
+
+Pour robot mobile unicycle :
+![image](https://user-images.githubusercontent.com/76899255/141146472-c975ab27-3e13-43b6-8705-c826ef2c023e.png)
