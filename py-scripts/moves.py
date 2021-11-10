@@ -53,13 +53,7 @@ class boolMoveThread(threading.Thread) :
 	# UPDATE : has to be recoded because of new DC motors but mstill remain interesting
 	pass
 #--------------  MAIN FUNCS  -----------------
-		
-def forward(boolFunc, speed=1):
-	
-	pass
-	
-def rotationMove(angle, radius, *args):
-	# takes an angle + radius as argument, and turns with it on distance radius
-	pass
+
+
 	
 	
