@@ -22,3 +22,5 @@ modifier fichier boot/config.txt
 dtovertlay=i2c-gpio, bus=4,i2c_gpio_delay_us=1,i2c_gpio_sda=27,i2c_gpio_scl=22
 
 https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all
+
+Config physique : patcher les ports VCC et GND (ne pas se toucher)
