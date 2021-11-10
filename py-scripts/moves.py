@@ -7,7 +7,8 @@ from gpiozero import *
 from signal import pause
 from time import *
 import threading
-from adafruit_servokit import * # only using ServoKit ?
+# from adafruit_servokit import * # only using ServoKit ?
+from adafruit_motorkit import MotorKit
 
 # Other custom localisation scripts are to be imported ...
 # funcs : kit.servo[i].angle = n 
@@ -29,34 +30,37 @@ Config :
 
 5 : main head-rotating servo (180°... --> precise, not heavy / powerful : --> tryong feedback servo would be great)
 """
+#------------------  PHYSICAL PINS ATTRIBUTION ----------------
+
+motors = MotorKit(0x40)
+"""
+# Forward at full throttle
+kit.motor1.throttle = 1.0
+kit.motor2.throttle = 1.0
+# Stop & sleep for 1 sec.
+kit.motor1.throttle = 0.0
+kit.motor2.throttle = 0.0
+# Right at half speed
+kit.motor1.throttle = 0.5
+kit.motor2.throttle = -0.5
+"""
+
 
 #------------------  MAIN CUSTOM CLASSES  ---------------------
 
 class boolMoveThread(threading.Thread) :
 	# This type of thread is to be created within a forward or backward function, and it lets run the main motors until a condition
 	# becomes False (called by boolFunc); may be used within another type of function :
-	def __init__(self, boolFunc, speed) :
-		threading.Thread.__init__(self)
-		self.boolFunc = boolFunc
-		self.speed = speed
-		
-	def run(self) :
-		kit.continuous_servo[1].throttle = self.speed
-		kit.continuous_servo[2].throttle = - self.speed
-		while boolFunc():
-			pass
-		kit.continuous_servo[1].throttle = kit.continuous_servo[2]
+	# UPDATE : has to be recoded because of new DC motors but mstill remain interesting
 
 #--------------  MAIN FUNCS  -----------------
 		
 def forward(boolFunc, speed=1):
 	
-	# runs the main motors at speed between 0 and 1
-	thread1 = boolMoveThread(boolFunc, speed)
-	thread1.start()
-	# calling .join() for waiting ?
+	pass
 	
 def rotationMove(angle, radius, *args):
-	# takes an angle + radius as argument, and allows to turn with it on some distance
+	# takes an angle + radius as argument, and turns with it on distance radius
 	pass
+	
 	
