@@ -11,3 +11,15 @@ essayer (kalman filter) : https://oatao.univ-toulouse.fr/2248/1/Alazard_2248.pdf
 
 M.Garay : https://arxiv.org/pdf/1910.03558.pdf
 ![image](https://user-images.githubusercontent.com/76899255/135299148-925629dd-1f19-41b7-89cc-aaf6eda5a802.png)
+
+
+For motor driver hat : 
+https://www.youtube.com/watch?v=Omm6_QxtJ04
+--> SSH connection + sudo pip3 install adafruit-circuitpython-motorkit
+corriger les patchs dans la lib adafruit (voir vidéo)
+pour voir exemples de fonctionnement : https://github.com/gallaugher/PiBot/blob/master/pibottest.py
+
+
+NB : ne pas créer de classes supplémentaires, surchargerait trop la mem
+
+Pour le mouvement dans l'espace, regarder : http://eavr.u-strasbg.fr/~bernard/education/3a_robmob/3a_robmob_slides.pdf
