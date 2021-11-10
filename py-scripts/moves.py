@@ -45,14 +45,13 @@ kit.motor1.throttle = 0.5
 kit.motor2.throttle = -0.5
 """
 
-
 #------------------  MAIN CUSTOM CLASSES  ---------------------
 
 class boolMoveThread(threading.Thread) :
 	# This type of thread is to be created within a forward or backward function, and it lets run the main motors until a condition
 	# becomes False (called by boolFunc); may be used within another type of function :
 	# UPDATE : has to be recoded because of new DC motors but mstill remain interesting
-
+	pass
 #--------------  MAIN FUNCS  -----------------
 		
 def forward(boolFunc, speed=1):
