@@ -28,3 +28,7 @@ Pour le mouvement dans l'espace, regarder : http://eavr.u-strasbg.fr/~bernard/ed
 
 Pour robot mobile unicycle :
 ![image](https://user-images.githubusercontent.com/76899255/141146472-c975ab27-3e13-43b6-8705-c826ef2c023e.png)
+
+Pour robot unicycle avec roue de commande d'orientation : 
+![image](https://user-images.githubusercontent.com/76899255/141147202-309f3fbb-25e0-45a4-bc21-e9c2dd160533.png)
+
