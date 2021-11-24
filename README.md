@@ -45,7 +45,6 @@ Modélisation 3D : freeCAD, LeoCAD, Blender
 Localisation / mapping :
 https://www.cs.cmu.edu/~motionplanning/lecture/Chap8-Kalman-Mapping_howie.pdf
 
----->> chercher en français ??? .. 
 
   ----- MATERIEL --------
 
