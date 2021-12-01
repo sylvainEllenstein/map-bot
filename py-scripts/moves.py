@@ -3,10 +3,11 @@
 # File that manages connection with robot using bluedot and gpiozero, and allows to control manually the movement 
 # This is only an API for facilitating communication with servos and motors
 
-from gpiozero import *
-from signal import pause
-from time import *
+import gpiozero
+import time
 import threading
+from global_funcs import *
+
 # from adafruit_servokit import * # only using ServoKit ?
 from adafruit_motorkit import MotorKit
 
@@ -19,9 +20,8 @@ from adafruit_motorkit import MotorKit
  
 #------------------ CONSTANTS  ------------------------
 
-l = 4.5 # corresponds to width/2 of vehicle
-L = 15 # corresponds to length of vehicle
-kit = ServoKit(channels=16) 
+
+# kit = ServoKit(channels=16) 
 """
 Config : 
 
@@ -33,6 +33,8 @@ Config :
 #------------------  PHYSICAL PINS ATTRIBUTION ----------------
 
 motors = MotorKit(0x40)
+# motor1 = left motor, motor2 = rightmotor
+# uses WaveshareHat
 """
 # Forward at full throttle
 kit.motor1.throttle = 1.0
@@ -45,15 +47,35 @@ kit.motor1.throttle = 0.5
 kit.motor2.throttle = -0.5
 """
 
+
 #------------------  MAIN CUSTOM CLASSES  ---------------------
 
-class boolMoveThread(threading.Thread) :
-	# This type of thread is to be created within a forward or backward function, and it lets run the main motors until a condition
-	# becomes False (called by boolFunc); may be used within another type of function :
-	# UPDATE : has to be recoded because of new DC motors but mstill remain interesting
-	pass
+def boolMoveThread(dt, s1, s2, mbool=None):
+	if mbool != None : 
+		kit.motor1.throttle = s1
+		kit.motor2.throttle = s2
+		time.sleep(dt - h) # little const to be taken into account because of multithreading
+	else : 
+		# means a condition is passed as argument, may not be useful
+		while mbool : 
+			kit.motor1.throttle = s1
+			kit.motor2.throttle = s2
+
 #--------------  MAIN FUNCS  -----------------
 
+def rotate(dtheta, ws=0.1)
+	# fonction basique pour tourner d'un angle dtheta, avec une vitesse lente sur chaque roue (ws)
+	# dtheta en radians, ws dans [0, 1]
+	dx = dtheta * width
+	dt = abs(dx / ws)
+	th = boolMoveThread(dt, s1=ws, s2=-ws)
+	th.start()
 
-	
+
+def forward(dx): 
+	# fonction basique permettant d'aller de dx vers l'avant
+	dt = dx / speed
+	th = threading.Thread(target=boolMoveThread, s1=speed, s2=speed)
+	th.start()
+
 	
