@@ -45,6 +45,7 @@ Modélisation 3D : freeCAD, LeoCAD, Blender
 Localisation / mapping :
 https://www.cs.cmu.edu/~motionplanning/lecture/Chap8-Kalman-Mapping_howie.pdf
 
+---->> chercher en français ??? .. 
 
   ----- MATERIEL --------
 
@@ -59,9 +60,6 @@ après Toussaint : tests de fonctionnement de base, continuer le code, choisir l
 vacances de Noël : fabrication matérielle des pièces nécessaires, finir le robot physique
 après vacances de Noël : finir de coder les modules secondaires, tests finaux
 vacances février : phase domotique optionelle
-
------- VARIANTES ---------
-créer un hexapode pour mieux s'adapter aux terrains accidentés ?
 
 
 
